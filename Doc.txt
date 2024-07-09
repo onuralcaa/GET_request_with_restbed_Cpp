@@ -1,0 +1,22 @@
+09.07.2024
+
+requirements (libraries):
+-------------------------
+restbed
+openssl-3.x (for incompatibility issue)
+cpr (Alternative HTTP Client)
+
+---------
+Compile:
+cmake ..
+make
+
+-------------------------------------------------------------------------------
+(./program_name || output) (url) (output_files) (timeout(ms)) (number_of_image)
+
+
+Example:
+--------
+./send_request http://10.6.0.141:9590/ekinCamera/takePhoto image.jpg 1000 3
+
+
